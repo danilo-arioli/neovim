@@ -38,3 +38,5 @@ opt.splitbelow = true -- split horizontal window to the bottom
 
 -- turn off swapfile
 opt.swapfile = false
+
+vim.api.nvim_set_hl(0, "FloatBorder", { link = "Normal" }) -- line to fix de background color border
